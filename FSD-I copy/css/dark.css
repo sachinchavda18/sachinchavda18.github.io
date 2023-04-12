@@ -1,0 +1,144 @@
+/* navbar  */
+
+:root {
+    --black:#202020;
+    --light-color: #666;
+    --box-shadow: 0 .5rem 1.5rem rgba(255, 255, 255, 0.1);
+    --white: #fff;
+    --dark-white: #eee;
+}
+
+
+html {
+    background: var(--black);
+}
+
+header {
+    background-color: var(--black);
+
+}
+
+header #logo {
+    color: var(--white);
+}
+
+
+header #navbar a {
+    color: var(--dark-white);
+}
+
+header #navbar a:hover {
+    color: var(--black);
+    background: var(--dark-white);
+}
+
+
+header .icons div{
+    color:var(--dark-white) ;
+    background-color: var(--light-color);
+}
+
+header .icons div:hover{
+    background: var(--dark-white);
+    color: var(--black);
+}
+
+
+#search-form{
+    background-color: var(--black);
+    border: .05rem solid var(--light-color);
+}
+
+#search-form input{
+    color: var(--white);
+    background-color: var(--black);
+}
+
+
+#search-form label{
+    color: var(--white);
+}
+#search-form label:hover{
+    color: var(--light-color);
+}
+
+
+#newsType{
+    color: var(--dark-white);
+}
+
+.card {
+    background-color: var(--black);
+    border: 1px solid var(--light-color);
+}
+
+.card:hover {
+    background: rgb(59, 58, 58);
+}
+
+h5{
+    color: var(--dark-white);
+}
+.card .para .descript {
+    color: var(--dark-white);
+}
+
+.card .para .btn {
+    color: var(--black);
+    background-color: var(--dark-white);
+}
+
+
+
+/* sign-in form  */
+
+#sign-in {
+    border: .1rem solid var(--dark-white);
+    background: var(--light-color);
+    box-shadow: var(--box-shadow);
+    color: var(--dark-white);
+}
+
+#sign-in h2 {
+    color: var(--dark-white);
+}
+
+#sign-in input {
+    border-bottom: 2px solid var(--dark-white);
+}
+#sign-in input::placeholder {
+    color: var(--dark-white);
+}
+
+#sign-in #submit{
+    background-color: var(--dark-white);
+    color: var(--black);
+}
+
+#sign-in #close {
+    color: var(--dark-white);
+}
+
+
+/* Footer  */
+.footer {
+    background-color: var(--black);
+    color: var(--dark-white);
+    box-shadow: var(--box-shadow);
+}
+
+
+
+/* Media Query */
+
+
+@media (max-width:768px) {
+
+    header #navbar {
+        background: var(--black);
+    }
+
+    header #navbar a {
+        background: var(--light-color);
+    }
+}
